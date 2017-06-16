@@ -1,0 +1,30 @@
+{
+  "name": "gulp-js-comment",
+  "version": "0.1.2",
+  "description": "strip comment for gulp",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapics/gulp-js-comment.git"
+  },
+  "author": "sapics",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sapics/gulp-js-comment/issues"
+  },
+  "homepage": "https://github.com/sapics/gulp-js-comment",
+  "keywords": [
+    "gulpplugin",
+    "javascript",
+    "strip comment",
+    "export comment"
+  ],
+  "dependencies": {
+    "acorn": "^5.0.3",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  }
+}
