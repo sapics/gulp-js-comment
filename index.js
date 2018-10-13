@@ -1,11 +1,11 @@
 const through = require('through2')
-const gutil = require('gulp-util')
-const PluginError = gutil.PluginError
+const PluginError = require('plugin-error')
 const exec = require('child_process').exec
 const fs = require('fs')
 const os = require('os')
 const path = require('path')
 const acorn = require('acorn')
+
 const PLUGIN_NAME = 'gulp-js-comment'
 
 var pk = 0
