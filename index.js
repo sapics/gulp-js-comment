@@ -37,7 +37,7 @@ function _jsComment(file, options, cb, srcString){
       comments.sort(function(a, b){return a.end - b.end})
       for(i = len; i--; ){
         commentBlock = comments[i]
-        str = str.slice(0, commentBlock.start) + str.slice(commentBlock.end + 1)
+        str = str.slice(0, commentBlock.start) + str.slice(commentBlock.end)
       }
       if (file.isBuffer()){
         file.contents = new Buffer(str)
